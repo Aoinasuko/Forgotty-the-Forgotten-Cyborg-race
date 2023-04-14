@@ -1,0 +1,516 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<AlienRace.ThingDef_AlienRace ParentName="BasePawn">
+		<defName>Forgotty_Pawn</defName>
+		<label>Forgotty</label>
+		<description>Forgotty is a species that was discovered and identified in a laboratory buried in a certain location on the "Forgotten Continent" when research uncovered an individual that had been kept in storage. While its appearance, internal organs, etc., are almost identical to those of baseliners, the only part of it that is the brain is composed of mechanite and machinery. The only part of the brain that functions is a special part composed of mechanite and machinery.\n\nAccording to a few sources, the creators of this race substituted the brain with a mechanite and a machine. The creators of this tribe, according to a few sources, were trying to create a human being who could create his or her preferred personality on demand by replacing the brain with a mechanite and a machine. However, due to the problems caused by replacing the brain with a machine, the project was eventually frozen. The project was eventually frozen.\n\nForgotty gains a certain amount of knowledge from various jobs, which activates the mechanite. Based on the activated mechanite, the parts that hit the brain can be upgraded. However, when upgrading a part, the memory must be formatted. The personality in the formatted parts will disappear without a trace.</description>
+		<alienRace>
+			<generalSettings>
+				<maleGenderProbability>-1</maleGenderProbability>
+				<immuneToAge>true</immuneToAge>
+				<canLayDown>true</canLayDown>
+				<maxDamageForSocialfight>1</maxDamageForSocialfight>
+				<minAgeForAdulthood>1</minAgeForAdulthood>
+				<humanRecipeImport>true</humanRecipeImport>
+				<immuneToXenophobia>true</immuneToXenophobia>
+				<allowHumanBios>false</allowHumanBios>
+				<lovinIntervalHoursFromAge>
+					<points>
+						<li>(4, 5.5)</li>
+						<li>(6, 5.0)</li>
+						<li>(950, 5.0)</li>
+						<li>(1000, 10.0)</li>
+					</points>
+				</lovinIntervalHoursFromAge>
+				<disallowedTraits>
+					<li>
+						<defName>Beauty</defName>
+						<degree>-1</degree>
+					</li>
+					<li>
+						<defName>Beauty</defName>
+						<degree>-2</degree>
+					</li>
+					<li>
+						<defName>Beauty</defName>
+						<degree>2</degree>
+					</li>
+					<li>
+						<defName>DislikesMen</defName>
+					</li>
+					<li>
+						<defName>DislikesWomen</defName>
+					</li>
+					<li>
+						<defName>AnnoyingVoice</defName>
+					</li>
+					<li>
+						<defName>CreepyBreathing</defName>
+					</li>
+				</disallowedTraits>
+				<alienPartGenerator>
+					<oldHairAgeRange>10000~99999</oldHairAgeRange>
+					<oldHairColorGen Class="ColorGenerator_Options">
+						<options>
+							<li>
+								<weight>1</weight>
+								<only>RGBA(1.0,1.0,1.0,1)</only>
+							</li>
+							<li>
+								<weight>1</weight>
+								<only>RGBA(1.0,0.8,0.8,1)</only>
+							</li>
+							<li>
+								<weight>1</weight>
+								<only>RGBA(0.8,1.0,0.8,1)</only>
+							</li>
+							<li>
+								<weight>1</weight>
+								<only>RGBA(0.8,0.8,1.0,1)</only>
+							</li>
+						</options>
+					</oldHairColorGen>
+					<headTypes Inherit="False">
+						<li>Male_AverageNormal</li>
+						<li>Female_AverageNormal</li>
+					</headTypes>
+					<bodyTypes>
+						<li>Female</li>
+						<li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
+						<li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
+					</bodyTypes>
+					<headOffset>(-0.1, -0.186)</headOffset>
+					<customDrawSize>(1, 1)</customDrawSize>
+					<customHeadDrawSize>(1, 1)</customHeadDrawSize>
+					<customPortraitDrawSize>(1, 1)</customPortraitDrawSize>
+					<customPortraitHeadDrawSize>(1, 1)</customPortraitHeadDrawSize>
+					<colorChannels>
+						<li>
+							<name>skin</name>
+							<first Class="ColorGenerator_Options">
+								<options>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(0.97,0.92,0.79,1)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(1.0,0.85,0.76,1)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(0.94,0.69,0.72,1)</only>
+									</li>
+								</options>
+							</first>
+							<second Class="ColorGenerator_Options">
+								<options>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(255,104,104,255)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(255,189,54,255)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(255,248,137,255)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(169,255,172,255)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(153,255,255,255)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(154,164,255,255)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(223,181,255,255)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(172,90,60,255)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(255,250,240,255)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(233,205,113,255)</only>
+									</li>
+								</options>
+							</second>
+						</li>
+						<li>
+							<name>hair</name>
+							<first Class="ColorGenerator_Options">
+								<options>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(1.0,1.0,1.0,1)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(1.0,0.8,0.8,1)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(0.8,1.0,0.8,1)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(0.8,0.8,1.0,1)</only>
+									</li>
+								</options>
+							</first>
+						</li>
+					</colorChannels>
+				</alienPartGenerator>
+				<reproduction>
+					<!-- 男の生殖率 -->
+					<maleFertilityAgeFactor>
+						<points>
+							<li>(3, 0)</li>
+							<li>(5, 1)</li>
+							<li>(900, 1)</li>
+							<li>(950, 0)</li>
+						</points>
+					</maleFertilityAgeFactor>
+					<!-- 女の生殖率 -->
+					<femaleFertilityAgeFactor>
+						<points>
+							<li>(3, 0)</li>
+							<li>(5, 1)</li>
+							<li>(900, 1)</li>
+							<li>(950, 0)</li>
+						</points>
+					</femaleFertilityAgeFactor>
+				</reproduction>
+				<growthAges>
+					<li>7</li>
+					<li>10</li>
+					<li>13</li>
+				</growthAges>
+			</generalSettings>
+			<graphicPaths>
+				<head>
+					<path>Forgotty/Race/Head/Average_Normal</path>
+					<headtypeGraphics>
+						<Male_AverageNormal>Forgotty/Race/Head/Average_Normal</Male_AverageNormal>
+						<Female_AverageNormal>Forgotty/Race/Head/Average_Normal</Female_AverageNormal>
+					</headtypeGraphics>
+				</head>
+				<body>
+					<path>Forgotty/Race/Body/</path>
+				</body>
+				<skeleton>Forgotty/Race/Bone/Bone</skeleton>
+				<skull>Forgotty/Race/HeadBone/HeadBone</skull>
+				<apparel>
+					<!-- Apparel Graphics options go here -->
+				</apparel>
+			</graphicPaths>
+			<relationSettings>
+				<relationChanceModifierLover>0</relationChanceModifierLover>
+				<relationChanceModifierExLover>0</relationChanceModifierExLover>
+				<relationChanceModifierFiance>0</relationChanceModifierFiance>
+				<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+				<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+				<relationChanceModifierParent>0</relationChanceModifierParent>
+				<relationChanceModifierChild>0</relationChanceModifierChild>
+				<relationChanceModifierSibling>0</relationChanceModifierSibling>
+			</relationSettings>
+			<raceRestriction>
+				<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
+				<onlyUseRaceRestrictedWeapons>false</onlyUseRaceRestrictedWeapons>
+				<onlyDoRaceRestrictedRecipes>false</onlyDoRaceRestrictedRecipes>
+				<apparelList>
+					<li>Forgotty_SimpleCloth</li>
+					<li>Forgotty_BlindfoldandGag</li>
+					<li>Forgotty_Blindfold</li>
+					<li>Forgotty_SimpleCollor</li>
+					<li>Forgotty_SlaveStrap</li>
+					<li>Forgotty_SimpleArmor</li>
+					<li>Forgotty_MaidBand</li>
+					<li>Forgotty_MaidCloth</li>
+					<li>Forgotty_NobleCloth</li>
+					<li>Forgotty_NobleCape</li>
+					<li>Forgotty_SwimSuit</li>
+				</apparelList>
+				<blackGeneList>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Brow_Heavy</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">FacialRidges</li>
+				</blackGeneList>
+				<blackGeneTags>
+					<li>SkinColor</li>
+					<li>HairColor</li>
+					<li>EyeColor</li>
+					<li>BodyType</li>
+					<li>Ears</li>
+					<li>Nose</li>
+					<li>Jaw</li>
+					<li>Head</li>
+					<li>Headbone</li>
+					<li>HairStyle</li>
+					<li>BeardStyle</li>
+					<li>SkinColorOverride</li>
+					<li>Fur</li>
+					<li>Tail</li>
+				</blackGeneTags>
+				<blackEndoCategories>
+					<li>Melanin</li>
+					<li>HairColor</li>
+					<li>Ears</li>
+					<li>Nose</li>
+					<li>Jaw</li>
+					<li>Head</li>
+					<li>BodyType</li>
+				</blackEndoCategories>
+			</raceRestriction>
+			<thoughtSettings>
+				<cannotReceiveThoughts>
+					<li>Naked</li>
+					<li>AteRawFood</li>
+					<li>AteKibble</li>
+					<li>AteCorpse</li>
+					<li>AteHumanlikeMeatDirect</li>
+					<li>AteHumanlikeMeatAsIngredient</li>
+					<li>AteInsectMeatDirect</li>
+					<li>AteInsectMeatAsIngredient</li>
+					<li>AteWithoutTable</li>
+				</cannotReceiveThoughts>
+			</thoughtSettings>
+			<styleSettings>
+				<li>
+					<key>HairDef</key>
+					<value>
+						<hasStyle>true</hasStyle>
+						<styleTagsOverride>
+							<li>Forgotty</li>
+						</styleTagsOverride>
+					</value>
+				</li>
+				<li>
+					<key>BeardDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+					</value>
+				</li>
+				<li>
+					<key>TattooDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+					</value>
+				</li>
+			</styleSettings>
+		</alienRace>
+		<statBases>
+			<MarketValue>2500</MarketValue>
+			<MoveSpeed>4.6</MoveSpeed>
+			<ComfyTemperatureMin>16</ComfyTemperatureMin>
+			<ComfyTemperatureMax>26</ComfyTemperatureMax>
+			<LeatherAmount>75</LeatherAmount>
+			<RoyalFavorValue>5</RoyalFavorValue>
+		</statBases>
+		<tools>
+			<li>
+				<label>teeth</label>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Bite</def>
+							<amount>3</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>left fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Blunt</def>
+							<amount>3</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Blunt</def>
+							<amount>3</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+		</tools>
+		<race>
+			<thinkTreeMain>Humanlike</thinkTreeMain>
+			<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+			<intelligence>Humanlike</intelligence>
+			<baseHungerRate>0.6</baseHungerRate>
+			<lifeExpectancy>1000</lifeExpectancy>
+			<leatherDef>Leather_Human</leatherDef>
+			<nameCategory>HumanStandard</nameCategory>
+			<hasGenders>true</hasGenders>
+			<trainability>Advanced</trainability>
+			<body>Human</body>
+			<baseBodySize>0.6</baseBodySize>
+			<baseHealthScale>0.8</baseHealthScale>
+			<wildness>0.15</wildness>
+			<manhunterOnDamageChance>1.00</manhunterOnDamageChance>
+			<foodType>OmnivoreHuman</foodType>
+			<gestationPeriodDays>18</gestationPeriodDays>
+			<meatMarketValue>0.8</meatMarketValue>
+			<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+			<litterSizeCurve>
+				<points>
+					<li>(0, 0)</li>
+					<li>(1, 0.65)</li>
+					<li>(2, 0.30)</li>
+					<li>(3, 0.05)</li>
+					<li>(4, 0)</li>
+					<li>(5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeStageAges>
+				<li Class="AlienRace.LifeStageAgeAlien">
+					<def>Forgotty_Baby</def>
+					<minAge>0</minAge>
+					<headOffsetDirectional>
+						<north>(0.0, 0.0)</north>
+						<east>(0.06, 0.0)</east>
+						<south>(0.0, 0.0)</south>
+						<west>(-0.06, 0.0)</west>
+					</headOffsetDirectional>
+				</li>
+				<li Class="AlienRace.LifeStageAgeAlien">
+					<def>Forgotty_Child</def>
+					<minAge>3</minAge>
+					<headOffsetDirectional>
+						<north>(0.0, 0.0)</north>
+						<east>(0.06, 0.0)</east>
+						<south>(0.0, 0.0)</south>
+						<west>(-0.06, 0.0)</west>
+					</headOffsetDirectional>
+				</li>
+				<li>
+					<def>Forgotty_Adult</def>
+					<minAge>18</minAge>
+				</li>
+			</lifeStageAges>
+			<lifeStageWorkSettings MayRequire="Ludeon.RimWorld.Biotech">
+				<Firefighter>7</Firefighter>
+				<Patient>0</Patient>
+				<Doctor>10</Doctor>
+				<PatientBedRest>0</PatientBedRest>
+				<Childcare MayRequire="Ludeon.RimWorld.Biotech">0</Childcare>
+				<BasicWorker>3</BasicWorker>
+				<Warden>10</Warden>
+				<Handling>7</Handling>
+				<Cooking>7</Cooking>
+				<Hunting>7</Hunting>
+				<Construction>10</Construction>
+				<Growing>7</Growing>
+				<Mining>7</Mining>
+				<PlantCutting>7</PlantCutting>
+				<Smithing>13</Smithing>
+				<Tailoring>7</Tailoring>
+				<Art>10</Art>
+				<Crafting>7</Crafting>
+				<Hauling>3</Hauling>
+				<Cleaning>3</Cleaning>
+				<Research>13</Research>
+			</lifeStageWorkSettings>
+			<specialShadowData>
+				<volume>(0.3, 0.8, 0.4)</volume>
+				<offset>(0,0,-0.3)</offset>
+			</specialShadowData>
+			<ageGenerationCurve>
+				<points>
+					<li>(3,0)</li>
+					<li>(18,0)</li>
+					<li>(20,100)</li>
+					<li>(30,100)</li>
+					<li>(31,0)</li>
+				</points>
+			</ageGenerationCurve>
+			<hediffGiverSets>
+				<li>OrganicStandard</li>
+			</hediffGiverSets>
+		</race>
+		<comps>
+			<li Class="Forgotty_Race.CompProperties_Forgotty">
+			</li>
+		</comps>
+		<inspectorTabs>
+			<li>Forgotty_Race.ITab_Forgotty</li>
+		</inspectorTabs>
+	</AlienRace.ThingDef_AlienRace>
+	
+	<LifeStageDef>
+		<defName>Forgotty_Baby</defName>
+		<label>Forgotty Baby</label>
+		<reproductive>false</reproductive>
+		<visible>false</visible>
+		<developmentalStage>Baby</developmentalStage>
+		<statFactors>
+			<MoveSpeed>0.25</MoveSpeed>
+		</statFactors>
+		<meleeDamageFactor>0.5</meleeDamageFactor>
+		<healthScaleFactor>0.25</healthScaleFactor>
+	</LifeStageDef>
+	
+	<LifeStageDef>
+		<defName>Forgotty_Child</defName>
+		<label>Forgotty Child</label>
+		<reproductive>false</reproductive>
+		<visible>false</visible>
+		<developmentalStage>Child</developmentalStage>
+		<statFactors>
+			<MoveSpeed>0.75</MoveSpeed>
+		</statFactors>
+		<meleeDamageFactor>0.5</meleeDamageFactor>
+		<healthScaleFactor>0.5</healthScaleFactor>
+	</LifeStageDef>
+	
+	<LifeStageDef>
+		<defName>Forgotty_Adult</defName>
+		<label>Forgotty Adult</label>
+		<reproductive>true</reproductive>
+		<milkable>true</milkable>
+		<visible>false</visible>
+		<developmentalStage>Adult</developmentalStage>
+	</LifeStageDef>
+	
+</Defs>

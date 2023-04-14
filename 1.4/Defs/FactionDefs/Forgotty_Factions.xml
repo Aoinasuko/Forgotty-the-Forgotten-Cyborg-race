@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef ParentName="FactionBase">
+    <defName>Forgotty_ForgottyGroup</defName>
+    <label>Forgotty Group</label>
+    <description>A group of Forgotty.</description>
+    <colorSpectrum>
+      <li>(0.78, 0, 0.27)</li>
+      <li>(1, 0.74, 0.83)</li>
+    </colorSpectrum>
+    <permanentEnemy>false</permanentEnemy>
+    <pawnSingular>Forgotty</pawnSingular>
+    <pawnsPlural>Forgotty's</pawnsPlural>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <mustStartOneEnemy>false</mustStartOneEnemy>
+    <maxCountAtGameStart>1</maxCountAtGameStart>
+    <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+    <hidden>true</hidden>
+    <rescueesCanJoin>true</rescueesCanJoin>
+    <autoFlee>false</autoFlee>
+    <classicIdeo>false</classicIdeo>
+    <factionIconPath>Forgotty/UI/Faction/icon</factionIconPath>
+    <techLevel>Industrial</techLevel>
+    <fixedName>Forgotty Group</fixedName>
+    <allowedCultures><li>Astropolitan</li></allowedCultures>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
+    </requiredMemes>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Forgotty_Story_Normal</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <settlementTexturePath>Forgotty/UI/Faction/icon</settlementTexturePath>
+    <xenotypeSet>
+      <xenotypeChances>
+        <Baseliner MayRequire="Ludeon.RimWorld.Biotech">1.0</Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </FactionDef>
+
+</Defs>

@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <ThingDef ParentName="ResourceBase">
+    <thingClass>ThingWithComps</thingClass>
+    <defName>Forgotty_Body</defName>
+    <label>Forgotty Body</label>
+    <description>It is an elemental Forgotty with no spirit installed. It can be used to create a new Forgotty, or it can be used to recover and revive the memory of a failed Forgotty.</description>
+    <graphicData>
+      <texPath>Forgotty/Thing/Item/ForgottyBody</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>10</stackLimit>
+    <techLevel>Industrial</techLevel>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <MarketValue>1000</MarketValue>
+      <Mass>0.2</Mass>
+      <DeteriorationRate>2.0</DeteriorationRate>
+      <Flammability>0.2</Flammability>
+      <WorkToMake>15000</WorkToMake>
+    </statBases>
+    <thingCategories>
+      <li>ItemsMisc</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <costList>
+      <Meat_Human>30</Meat_Human>
+      <MedicineUltratech>5</MedicineUltratech>
+      <MechSerumHealer>1</MechSerumHealer>
+    </costList>
+    <recipeMaker>
+      <effectWorking>Smelt</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <recipeUsers>
+        <li>Forgotty_CraftTable</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>Forgotty_Knowledge</researchPrerequisite>
+      <workSkill>Crafting</workSkill>
+    </recipeMaker>
+    <tradeability>Sellable</tradeability>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <thingSetMakerTags>
+      <li>RewardStandardMidFreq</li>
+    </thingSetMakerTags>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Use {0_label}</useLabel>
+        <useDuration>0</useDuration>
+        <warmupMote>Mote_ResurrectAbility</warmupMote>
+      </li>
+      <li Class="CompProperties_Targetable">
+        <compClass>Forgotty_Race.CompTargetable_DeadForgotty</compClass>
+      </li>
+      <li Class="CompProperties_TargetEffectResurrect">
+        <moteDef>Mote_ResurrectFlash</moteDef>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <thingClass>ThingWithComps</thingClass>
+    <defName>Forgotty_Core</defName>
+    <label>Forgotty Core</label>
+    <description>These are the parts needed to upgrade the functionality of Forgotty. The number of Core required increases with tier. You can install Core by using.</description>
+    <graphicData>
+      <texPath>Forgotty/Thing/Item/Core</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>10</stackLimit>
+    <techLevel>Industrial</techLevel>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <MarketValue>500</MarketValue>
+      <Mass>0.2</Mass>
+      <DeteriorationRate>2.0</DeteriorationRate>
+      <Flammability>0.2</Flammability>
+      <WorkToMake>5000</WorkToMake>
+    </statBases>
+    <thingCategories>
+      <li>ItemsMisc</li>
+    </thingCategories>
+    <costList>
+      <Steel>50</Steel>
+      <Plasteel>25</Plasteel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+      <effectWorking>Smelt</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <recipeUsers>
+        <li>Forgotty_CraftTable</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>Forgotty_Knowledge</researchPrerequisite>
+      <workSkill>Crafting</workSkill>
+    </recipeMaker>
+    <tradeability>Sellable</tradeability>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <compClass>Forgotty_Race.CompUsable_Forgotty</compClass>
+        <useJob>UseItem</useJob>
+        <useLabel>Use {0_label}</useLabel>
+        <useDuration>600</useDuration>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>Forgotty_Race.CompUseEffect_AddCore</compClass>
+      </li>
+      <li Class="CompProperties_UseEffectPlaySound">
+        <soundOnUsed>MechSerumUsed</soundOnUsed>
+      </li>
+      <li Class="CompProperties_UseEffectDestroySelf" />
+    </comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <thingClass>ThingWithComps</thingClass>
+    <defName>Forgotty_Box</defName>
+    <label>Forgotty Box</label>
+    <description>The box is shipped with Forgotty with no mind installed. You can obtain any type of Forgotty.</description>
+    <graphicData>
+      <texPath>Forgotty/Thing/Item/ForgottyBody</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>10</stackLimit>
+    <techLevel>Industrial</techLevel>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <MarketValue>1500</MarketValue>
+      <Mass>0.2</Mass>
+      <DeteriorationRate>2.0</DeteriorationRate>
+      <Flammability>0.2</Flammability>
+      <WorkToMake>20000</WorkToMake>
+    </statBases>
+    <thingCategories>
+      <li>ItemsMisc</li>
+    </thingCategories>
+    <costList>
+      <Forgotty_Body>1</Forgotty_Body>
+      <Forgotty_Core>3</Forgotty_Core>
+    </costList>
+    <recipeMaker>
+      <effectWorking>Smelt</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <recipeUsers>
+        <li>Forgotty_CraftTable</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>Forgotty_Knowledge</researchPrerequisite>
+      <workSkill>Crafting</workSkill>
+    </recipeMaker>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <compClass>CompUsable</compClass>
+        <useJob>UseItem</useJob>
+        <useLabel>Use {0_label}</useLabel>
+        <useDuration>180</useDuration>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>Forgotty_Race.CompUseEffect_SummonForgotty</compClass>
+      </li>
+      <li Class="CompProperties_UseEffectPlaySound">
+        <soundOnUsed>MechSerumUsed</soundOnUsed>
+      </li>
+      <li Class="CompProperties_UseEffectDestroySelf" />
+    </comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <thingClass>ThingWithComps</thingClass>
+    <defName>Forgotty_BackupMemory</defName>
+    <label>Forgotty BackupMemory</label>
+    <description>Installing in Forgotty prevents memory erasure by formatting only once.</description>
+    <graphicData>
+      <texPath>Forgotty/Thing/Item/Core</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>10</stackLimit>
+    <techLevel>Industrial</techLevel>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <MarketValue>2000</MarketValue>
+      <Mass>0.2</Mass>
+      <DeteriorationRate>2.0</DeteriorationRate>
+      <Flammability>0.2</Flammability>
+      <WorkToMake>10000</WorkToMake>
+    </statBases>
+    <thingCategories>
+      <li>ItemsMisc</li>
+    </thingCategories>
+    <costList>
+      <Steel>300</Steel>
+      <Plasteel>300</Plasteel>
+      <ComponentIndustrial>30</ComponentIndustrial>
+      <ComponentSpacer>30</ComponentSpacer>
+    </costList>
+    <recipeMaker>
+      <effectWorking>Smelt</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <recipeUsers>
+        <li>Forgotty_CraftTable</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>Forgotty_BackupMemory</researchPrerequisite>
+      <workSkill>Crafting</workSkill>
+    </recipeMaker>
+    <tradeability>Sellable</tradeability>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <compClass>Forgotty_Race.CompUsable_ForgottyMemory</compClass>
+        <useJob>UseItem</useJob>
+        <useLabel>Use {0_label}</useLabel>
+        <useDuration>600</useDuration>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>Forgotty_Race.CompUseEffect_BackupMemory</compClass>
+      </li>
+      <li Class="CompProperties_UseEffectPlaySound">
+        <soundOnUsed>MechSerumUsed</soundOnUsed>
+      </li>
+      <li Class="CompProperties_UseEffectDestroySelf" />
+    </comps>
+  </ThingDef>
+  
+</Defs>

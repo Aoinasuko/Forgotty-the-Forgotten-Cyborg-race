@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Forgotty_Knowledge.label>知識</Forgotty_Knowledge.label>
+  <Forgotty_Knowledge.description>フォアゴッティの知識を学びます.</Forgotty_Knowledge.description>
+
+  <Forgotty_BackupMemory.label>バックアップメモリー</Forgotty_BackupMemory.label>
+  <Forgotty_BackupMemory.description>フォーマットから一度だけフォアゴッティの記憶を守るバックアップメモリーを作成することが出来るようになります.</Forgotty_BackupMemory.description>
+
+  <Forgotty_Overhaul.label>改修計画</Forgotty_Overhaul.label>
+  <Forgotty_Overhaul.description>フォアゴッティのTier4への強化を行えるようになります.</Forgotty_Overhaul.description>
+
+  <Forgotty_FinalOverhaul.label>最終改修計画</Forgotty_FinalOverhaul.label>
+  <Forgotty_FinalOverhaul.description>フォアゴッティのTier5への強化を行えるようになります.</Forgotty_FinalOverhaul.description>
+
+  <Forgotty_Costumes.label>衣装</Forgotty_Costumes.label>
+  <Forgotty_Costumes.description>フォアゴッティ用の衣装を作成できるようになります.</Forgotty_Costumes.description>
+
+
+</LanguageData>

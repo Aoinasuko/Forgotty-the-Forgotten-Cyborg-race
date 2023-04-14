@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Forgotty_Pawn.label>フォアゴッティ</Forgotty_Pawn.label>
+  <Forgotty_Pawn.description>フォアゴッティは「忘れられた大陸」のある場所に埋もれていた研究所内で,調査によって保管されていた個体が発見されて判明した種族です. その見た目や内蔵等はベースライナーとほとんど変わらないものの,唯一脳に当たる部分がメカナイトと機械で構成されている特殊なパーツによって機能しています.\n\n数少ない資料によると,この種族の製作者は脳をメカナイトと機械に代替することによって専用の機械で需要に応じた好みの性格を作り出せる人間を作ろうとしていたようです. しかしながら,脳に当たる部分を機械にしたことによって発生した問題点によって最終的にプロジェクトは凍結されたようです.\n\nフォアゴッティは様々な仕事からある程度の知識を得ることによって,メカナイトが活性化します. 活性化したメカナイトを元に,脳に当たるパーツをアップグレードすることが出来ます. しかし,パーツのアップグレードを行う際には必ず記憶のフォーマットを行わなければいけません. フォーマットを行ったパーツの中の記憶は跡形もなく消えていってしまうでしょう.</Forgotty_Pawn.description>
+  <Forgotty_Pawn.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>skin</Forgotty_Pawn.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <Forgotty_Pawn.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>hair</Forgotty_Pawn.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
+  <Forgotty_Pawn.tools.0.label>歯</Forgotty_Pawn.tools.0.label>
+  <Forgotty_Pawn.tools.1.label>左拳</Forgotty_Pawn.tools.1.label>
+  <Forgotty_Pawn.tools.2.label>右拳</Forgotty_Pawn.tools.2.label>
+
+
+</LanguageData>

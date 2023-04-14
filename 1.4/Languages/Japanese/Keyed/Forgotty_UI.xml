@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Forgotty.UI.label_Format>フォーマット</Forgotty.UI.label_Format>
+  <Forgotty.UI.desc_Format>条件を満たしたフォアゴッティの強化を行うことが出来ます. 代償として,フォアゴッティはすべての記憶を失います.\n\n強化した後,フォアゴッティはしばらく再起動状態になります.</Forgotty.UI.desc_Format>
+
+  <Forgotty.UI.warn_FormatSave>このフォアゴッティにはバックアップメモリーがインストールされています.\n\n一度だけフォーマットから記憶を守りますが,バックアップメモリーは消滅します.\n\nフォーマットを行ってもよろしいですか？</Forgotty.UI.warn_FormatSave>
+
+  <Forgotty.UI.warn_Format>このフォアゴッティのフォーマットを行った場合,全ての記憶を失います.\n\n絆を結んでいる動物との絆が無くなり,恋人等の関係も全て消去されます. 一部を除き,特に仲の良かった人の心情に影響が発生するでしょう.\n\n本当にフォーマットを行ってもよろしいですか？</Forgotty.UI.warn_Format>
+
+  <Forgotty.UI.NeedResearch>これ以上の強化には研究を行う必要がある</Forgotty.UI.NeedResearch>
+  <Forgotty.UI.NeedXP>経験値が足りない</Forgotty.UI.NeedXP>
+  <Forgotty.UI.NeedCore>コアが足りない</Forgotty.UI.NeedCore>
+
+  <Forgotty.UI.CanLevelUpLabel>{0}の経験値が溜まった</Forgotty.UI.CanLevelUpLabel>
+  <Forgotty.UI.CanLevelUp>{0}の経験値がフォーマットが可能になる量まで貯まりました.\n\n必要な数のコアをインストールしている場合,フォーマットを行いTierを強化することが出来ます.</Forgotty.UI.CanLevelUp>
+
+  <Forgotty.UI.NotForgotty>フォアゴッティではない</Forgotty.UI.NotForgotty>
+  <Forgotty.UI.CoreFull>既に必要な数のコアをインストール済み</Forgotty.UI.CoreFull>
+  <Forgotty.UI.BackupInstalled>既にバックアップメモリーをインストール済み</Forgotty.UI.BackupInstalled>
+
+  <Forgotty.UI.CoreCharge>{0}のコアが追加されました.</Forgotty.UI.CoreCharge>
+  <Forgotty.UI.BackupInstall>{0}はバックアップメモリーをインストールしました.</Forgotty.UI.BackupInstall>
+
+  <Forgotty.UI.SelectForgotty>どの型のフォアゴッティを入手しますか？</Forgotty.UI.SelectForgotty>
+  <Forgotty.UI.Worker>労働型</Forgotty.UI.Worker>
+  <Forgotty.UI.Combat>戦闘型</Forgotty.UI.Combat>
+  <Forgotty.UI.Research>研究型</Forgotty.UI.Research>
+  
+  <Forgotty.UI.Summonlabel>{0}が仲間に加わった</Forgotty.UI.Summonlabel>
+  <Forgotty.UI.Summon>{0}を組み立てて,入植者として迎え入れました.</Forgotty.UI.Summon>
+  
+  <Forgotty.UI.ITab>フォアゴッティ</Forgotty.UI.ITab>
+  <Forgotty.UI.Tier>Tier</Forgotty.UI.Tier>
+  <Forgotty.UI.XP>経験値量</Forgotty.UI.XP>
+  <Forgotty.UI.Core>コア</Forgotty.UI.Core>
+
+</LanguageData>

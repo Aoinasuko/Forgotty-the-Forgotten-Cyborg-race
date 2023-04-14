@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Forgotty_Body.label>Forgotty ボディ</Forgotty_Body.label>
+  <Forgotty_Body.description>新しいフォアゴッティを作るためのボディです.\n\n死亡したフォアゴッティの蘇生にも使用することが出来ます.</Forgotty_Body.description>
+  <Forgotty_Body.comps.CompUsable.useLabel>{0_label}を使う</Forgotty_Body.comps.CompUsable.useLabel>
+
+  <Forgotty_Core.label>Forgotty コア</Forgotty_Core.label>
+  <Forgotty_Core.description>フォアゴッティの強化を行う為に必要な素材です.\n\n使用することでインストールします.\n必要な個数はフォアゴッティのタブから確認することが出来ます.</Forgotty_Core.description>
+  <Forgotty_Core.comps.CompUsable_Forgotty.useLabel>{0_label}を使う</Forgotty_Core.comps.CompUsable_Forgotty.useLabel>
+
+  <Forgotty_Box.label>Forgotty ボックス</Forgotty_Box.label>
+  <Forgotty_Box.description>人格がインストールされていないフォアゴッティが封入されているボックスです.\n\n使用することで,任意のフォアゴッティを入手することが出来ます.</Forgotty_Box.description>
+  <Forgotty_Box.comps.CompUsable.useLabel>{0_label}を使う</Forgotty_Box.comps.CompUsable.useLabel>
+
+  <Forgotty_BackupMemory.label>Forgotty バックアップメモリー</Forgotty_BackupMemory.label>
+  <Forgotty_BackupMemory.description>フォアゴッティの強化に必要なフォーマット作業から一度だけ記憶を守るモジュールです.\n\n使用することでインストールします.</Forgotty_BackupMemory.description>
+  <Forgotty_BackupMemory.comps.CompUsable_ForgottyMemory.useLabel>{0_label}を使う</Forgotty_BackupMemory.comps.CompUsable_ForgottyMemory.useLabel>
+
+
+</LanguageData>

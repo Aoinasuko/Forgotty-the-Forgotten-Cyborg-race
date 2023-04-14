@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	
+	<ThoughtDef>
+		<defName>Forgotty_Forgot</defName>
+		<durationDays>30</durationDays>
+		<stackLimit>10</stackLimit>
+		<stages>
+			<li>
+				<label>Forgotten by {0}</label>
+				<description>I was prepared for this, but it is sad to be forgotten by a familiar face.</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+</Defs>

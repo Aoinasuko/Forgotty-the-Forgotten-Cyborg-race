@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 作業タイプ -->
+
+  <Forgotty_WorkType.label>労働型</Forgotty_WorkType.label>
+  <Forgotty_WorkType.description>各種作業に特化したタイプです.</Forgotty_WorkType.description>
+
+  <Forgotty_CombatType.label>戦闘型</Forgotty_CombatType.label>
+  <Forgotty_CombatType.description>戦闘に特化したタイプです.</Forgotty_CombatType.description>
+
+  <Forgotty_ResearchType.label>研究型</Forgotty_ResearchType.label>
+  <Forgotty_ResearchType.description>研究に特化したタイプです.</Forgotty_ResearchType.description>
+
+  <Forgotty_BackupMemory.label>バックアップメモリー</Forgotty_BackupMemory.label>
+  <Forgotty_BackupMemory.description>一度だけ,フォーマットによる記憶の消去を防ぎます.</Forgotty_BackupMemory.description>
+
+  <Forgotty_Tier.label>フォアゴッティ</Forgotty_Tier.label>
+  <Forgotty_Tier.description>フォアゴッティは現在のTierによって能力が変化します.</Forgotty_Tier.description>
+  <Forgotty_Tier.stages.0.label>Tier 1</Forgotty_Tier.stages.0.label>
+  <Forgotty_Tier.stages.1.label>Tier 2</Forgotty_Tier.stages.1.label>
+  <Forgotty_Tier.stages.2.label>Tier 3</Forgotty_Tier.stages.2.label>
+  <Forgotty_Tier.stages.3.label>Tier 4</Forgotty_Tier.stages.3.label>
+  <Forgotty_Tier.stages.4.label>Tier 5</Forgotty_Tier.stages.4.label>
+
+
+</LanguageData>

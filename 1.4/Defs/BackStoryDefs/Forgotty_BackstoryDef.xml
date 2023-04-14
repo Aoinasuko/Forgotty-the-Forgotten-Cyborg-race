@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- 通常のフォアゴッティ -->
+	<AlienRace.AlienBackstoryDef Name="Forgotty_Story_Base" Abstract="True">
+		<bodyTypeMale>Female</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+			<li>Forgotty_Story_Normal</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<!-- 子供 -->
+	
+	<AlienRace.AlienBackstoryDef ParentName="Forgotty_Story_Base">
+		<defName>Forgotty_Child_N_A</defName>
+		<slot>Childhood</slot>
+		<title>Forgotty</title>
+		<titleShort>Forgotty</titleShort>
+		<baseDesc>[PAWN_nameDef] is Forgotty born by production.</baseDesc>
+		<skillGains>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	
+	<!-- 大人 -->
+	<AlienRace.AlienBackstoryDef ParentName="Forgotty_Story_Base">
+		<defName>Forgotty_Adult_N_A</defName>
+		<slot>Adulthood</slot>
+		<title>Worker type</title>
+		<titleShort>Worker</titleShort>
+		<baseDesc>[PAWN_nameDef] is a Forgotty who is good at working in labor.</baseDesc>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Forgotty_Story_Base">
+		<defName>Forgotty_Adult_N_B</defName>
+		<slot>Adulthood</slot>
+		<title>Combat type</title>
+		<titleShort>Combat</titleShort>
+		<baseDesc>[PAWN_nameDef] is a Forgotty who excels in combat.</baseDesc>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Forgotty_Story_Base">
+		<defName>Forgotty_Adult_N_C</defName>
+		<slot>Adulthood</slot>
+		<title>Research type</title>
+		<titleShort>Research</titleShort>
+		<baseDesc>[PAWN_nameDef] is a Forgotty who excels in research.</baseDesc>
+	</AlienRace.AlienBackstoryDef>
+	
+</Defs>

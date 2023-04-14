@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ResearchTabDef>
+		<defName>Forgotty_Research</defName>
+		<label>Forgotty</label>
+	</ResearchTabDef>
+	
+	<ResearchProjectDef>
+	    <defName>Forgotty_Knowledge</defName>
+	    <label>Knowledge</label>
+	    <description>You will learn about Forgotty.</description>
+	    <baseCost>1000</baseCost>
+	    <techLevel>Industrial</techLevel>
+	    <tab>
+	      <li>Forgotty_Research</li>
+	    </tab>
+	    <researchViewX>0</researchViewX>
+	    <researchViewY>4</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+	    <defName>Forgotty_BackupMemory</defName>
+	    <label>Backup Memory</label>
+	    <description>By creating an item that backs up Forgotty's memory, you will be able to refurbish the memory without forgetting what has been done before.</description>
+	    <baseCost>3000</baseCost>
+	    <techLevel>Industrial</techLevel>
+	    <tab>
+	      <li>Forgotty_Research</li>
+	    </tab>
+	    <prerequisites>
+	      <li>Forgotty_Knowledge</li>
+	    </prerequisites>
+	    <researchViewX>1</researchViewX>
+	    <researchViewY>3</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+	    <defName>Forgotty_Overhaul</defName>
+	    <label>Overhaul</label>
+	    <description>You will be able to do Forgotty refurbishments up to Tier 4.</description>
+	    <baseCost>2000</baseCost>
+	    <techLevel>Industrial</techLevel>
+	    <tab>
+	      <li>Forgotty_Research</li>
+	    </tab>
+	    <prerequisites>
+	      <li>MicroelectronicsBasics</li>
+	      <li>Forgotty_Knowledge</li>
+	    </prerequisites>
+	    <researchViewX>1</researchViewX>
+	    <researchViewY>4</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+	    <defName>Forgotty_FinalOverhaul</defName>
+	    <label>Final Overhaul</label>
+	    <description>You will be able to do Forgotty refurbishments up to Tier 5.</description>
+	    <baseCost>3000</baseCost>
+	    <techLevel>Industrial</techLevel>
+	    <tab>
+	      <li>Forgotty_Research</li>
+	    </tab>
+	    <prerequisites>
+	      <li>Forgotty_Overhaul</li>
+	      <li>MultiAnalyzer</li>
+	    </prerequisites>
+	    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	    <requiredResearchFacilities>
+	      <li>MultiAnalyzer</li>
+	    </requiredResearchFacilities>
+	    <researchViewX>2</researchViewX>
+	    <researchViewY>4</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+	    <defName>Forgotty_Costumes</defName>
+	    <label>Costumes</label>
+	    <description>It will allow you to create Forgotty outfits.</description>
+	    <baseCost>500</baseCost>
+	    <techLevel>Industrial</techLevel>
+	    <tab>
+	      <li>Forgotty_Research</li>
+	    </tab>
+	    <prerequisites>
+	      <li>Forgotty_Knowledge</li>
+	    </prerequisites>
+	    <researchViewX>1</researchViewX>
+	    <researchViewY>5</researchViewY>
+	</ResearchProjectDef>
+	
+</Defs>

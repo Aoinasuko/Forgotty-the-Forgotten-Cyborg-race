@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Forgotty the Forgotten Cyborg race</name>
+  <author>Aoi_nasuko</author>
+  <packageId>bep.forgotty.tfcr</packageId>
+  <supportedVersions>
+    <li>1.4</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>erdelf.HumanoidAlienRaces</packageId>
+      <displayName>Humanoid Alien Races</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
+      <downloadUrl></downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>erdelf.HumanoidAlienRaces</li>
+    <li>Nals.FacialAnimation</li>
+    <li>Nals.FacialAnimationExperimentals</li>
+  </loadAfter>
+  <incompatibleWith>
+    <li>bep.littlefairy.ropeworktale</li>
+  </incompatibleWith>
+  <description><![CDATA[
+【対応言語】
+日本語
+English(Machine translation)
+
+忘れられた大陸の機械人形、フォアゴッティ。
+
+<color=#77FFFF><size=20>＊概要</size></color>
+記憶の消去を繰り返すことで強くなっていく種族、フォアゴッティとその関連技術を追加します。
+
+<color=#77FFFF><size=15>＊ストーリー</size></color>
+フォアゴッティは「忘れられた大陸」のある場所に埋もれていた研究所内で、調査によって保管されていた個体が発見されて判明した種族です。
+その見た目や内蔵等はベースライナーとほとんど変わらないものの、
+唯一脳に当たる部分がメカナイトと機械で構成されている特殊なパーツによって機能しています。
+
+数少ない資料によると、この種族の製作者は脳をメカナイトと機械に代替することによって
+専用の機械で需要に応じた好みの性格を作り出せる人間を作ろうとしていたようです。
+しかしながら、脳に当たる部分を機械にしたことによって発生した問題点によって、
+最終的にプロジェクトは凍結されたようです。
+
+フォアゴッティは様々な仕事からある程度の知識を得ることによって、メカナイトが活性化します。
+活性化したメカナイトを元に、脳に当たるパーツをアップグレードすることが出来ます。
+しかし、パーツのアップグレードを行う際に、必ず記憶のフォーマットを行わなければいけません。
+フォーマットを行ったパーツの中の記憶は、跡形もなく消えていってしまうでしょう。
+
+<color=#77FFFF><size=15>＊入手方法</size></color>
+-フォアゴッティ入りのボックスが売られている事があるため、購入して使用する
+-フォアゴッティ入りのボックスを作成して使用する
+
+どちらの方法でも、入手時に以下の3つの型式から選択することが出来ます。
+-労働型:作業全般のスキルレベルが高い
+-戦闘型:射撃と格闘のスキルレベルが高い
+-研究型:研究のスキルレベルが高い
+
+<color=#77FFFF><size=15>＊特徴</size></color>
+<color=#77FFFF>-体格がやや小さい</color>
+<color=#77FFFF>-スキルレベルが劣化しない</color>
+<color=#77FFFF>-現在のTierや型式によって能力値が強化される</color>
+<color=#77FFFF>-ideology導入時、奴隷状態の時に脱走しない</color>
+
+<color=#FF7777>-良くも悪くも人間と殆どあらゆる面が同じ</color>
+<color=#FF7777>-EMPに致命的に弱く、被弾すると30秒スタンする</color>
+<color=#FF7777>-Tierや型式でスキルレベルが固定化され、スキルに経験値が入らない</color>
+<color=#77FFFF>-初期状態のTierでは通常の人間以下の能力しか持っていない</color>
+<color=#77FFFF>-Tierを上げるためには、記憶を消去するかコストの掛かる保護パーツを使用する必要がある</color>
+
+<color=#77FFFF><size=15>＊フォアゴッティの強化方法</size></color>
+まず初めに、指定された数のフォアゴッティ用のコアを使用させます。
+そして、スキルに経験値が入る行動を行いフォアゴッティの経験値を貯めます。
+現在の経験値量とコアの量は、フォアゴッティのタブにて確認できます。
+規定の値まで経験値を貯めた後に、フォアゴッティを選択してフォーマットを実行することでTierが1上がり、強化されます。
+フォーマットを行ったフォアゴッティは記憶をすべて失い、しばらく再起動のために麻酔が掛かります。
+
+<color=#77FFFF><size=20>＊その他、このMODで追加されるもの</size></color>
+-フォアゴッティの研究が追加されます。
+-フォアゴッティの建築物を追加します。
+-フォアゴッティの衣装を追加します。
+
+]]></description>
+</ModMetaData>

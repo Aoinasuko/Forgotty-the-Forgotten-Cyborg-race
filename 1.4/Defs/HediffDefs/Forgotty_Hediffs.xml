@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <!-- 作業タイプ -->
+  <HediffDef>
+    <defName>Forgotty_WorkType</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.4, 0.6, 0.8)</defaultLabelColor>
+    <isBad>false</isBad>
+    <label>Worker type</label>
+    <description>This type, specialized for work, increases work speed.</description>
+    <stages>
+      <li>
+        <statFactors>
+          <WorkSpeedGlobal>2.0</WorkSpeedGlobal>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <HediffDef>
+    <defName>Forgotty_CombatType</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.4, 0.6, 0.8)</defaultLabelColor>
+    <isBad>false</isBad>
+    <label>Combat type</label>
+    <description>This type, specialized for combat, increases combat ability.</description>
+    <stages>
+      <li>
+        <statFactors>
+          <AimingDelayFactor>0.5</AimingDelayFactor>
+          <MeleeDodgeChance>2.0</MeleeDodgeChance>
+          <MeleeHitChance>2.0</MeleeHitChance>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <HediffDef>
+    <defName>Forgotty_ResearchType</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.4, 0.6, 0.8)</defaultLabelColor>
+    <isBad>false</isBad>
+    <label>Research type</label>
+    <description>This type, specialized for research, increases research ability.</description>
+    <stages>
+      <li>
+        <statFactors>
+          <ResearchSpeed>2.0</ResearchSpeed>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <HediffDef>
+    <defName>Forgotty_BackupMemory</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.4, 0.6, 0.8)</defaultLabelColor>
+    <isBad>false</isBad>
+    <label>Backup Memory</label>
+    <description>Only once prevents memory erasure by formatting.</description>
+    <stages>
+      <li>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <HediffDef>
+    <defName>Forgotty_Tier</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.4, 0.6, 0.8)</defaultLabelColor>
+    <isBad>false</isBad>
+    <label>Forgotty</label>
+    <description>Forgotty varies in ability depending on Tier.</description>
+    <stages>
+      <li>
+        <label>Tier 1</label>
+        <statFactors>
+          <MoveSpeed>0.7</MoveSpeed>
+          <WorkSpeedGlobal>0.7</WorkSpeedGlobal>
+          <AimingDelayFactor>1.5</AimingDelayFactor>
+        </statFactors>
+      </li>
+      <li>
+        <label>Tier 2</label>
+        <minSeverity>2.0</minSeverity>
+        <statFactors>
+          <MoveSpeed>0.9</MoveSpeed>
+          <WorkSpeedGlobal>0.9</WorkSpeedGlobal>
+          <AimingDelayFactor>1.25</AimingDelayFactor>
+        </statFactors>
+      </li>
+      <li>
+        <label>Tier 3</label>
+        <minSeverity>3.0</minSeverity>
+      </li>
+      <li>
+        <label>Tier 4</label>
+        <minSeverity>4.0</minSeverity>
+        <statFactors>
+          <MoveSpeed>1.25</MoveSpeed>
+          <WorkSpeedGlobal>1.25</WorkSpeedGlobal>
+          <AimingDelayFactor>0.75</AimingDelayFactor>
+        </statFactors>
+      </li>
+      <li>
+        <label>Tier 5</label>
+        <minSeverity>5.0</minSeverity>
+        <statFactors>
+          <MoveSpeed>1.5</MoveSpeed>
+          <WorkSpeedGlobal>1.5</WorkSpeedGlobal>
+          <AimingDelayFactor>0.5</AimingDelayFactor>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+  
+</Defs>

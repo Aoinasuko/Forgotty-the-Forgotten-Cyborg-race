@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Forgotty.UI.label_Format>Format</Forgotty.UI.label_Format>
+  <Forgotty.UI.desc_Format>You can strengthen a Forgotty who has fulfilled the conditions. In return, Forgotty will lose all memories.\n\nAfter the enhancement, Forgotty will be rebooted for a while.</Forgotty.UI.desc_Format>
+
+  <Forgotty.UI.warn_FormatSave>This Forgotty has a backup memory installed.\n\nIt will protect the memory from formatting only once, but the backup memory will be lost.\n\nAre you sure you want to format it?</Forgotty.UI.warn_FormatSave>
+
+  <Forgotty.UI.warn_Format>If you format the Forgotty, the Forgotty will lose all memories.\n\nForgotty's ties to animals will be lost, and all of Forgotty's relationships with lovers and others will be erased. Except for a few, especially those who were close to Forgotty, will be emotionally affected.\n\nAre you sure you want to format?</Forgotty.UI.warn_Format>
+
+  <Forgotty.UI.NeedResearch>Further enhancement would require research</Forgotty.UI.NeedResearch>
+  <Forgotty.UI.NeedXP>Not enough experience</Forgotty.UI.NeedXP>
+  <Forgotty.UI.NeedCore>Not enough cores</Forgotty.UI.NeedCore>
+
+  <Forgotty.UI.CanLevelUpLabel>{0} experience accumulated</Forgotty.UI.CanLevelUpLabel>
+  <Forgotty.UI.CanLevelUp>{0} experience has been saved up to the amount that allows formatting.\n\nIf you have installed the required number of cores, you can format and enhance your Forgotty tier.</Forgotty.UI.CanLevelUp>
+
+  <Forgotty.UI.NotForgotty>Not Forgotty</Forgotty.UI.NotForgotty>
+  <Forgotty.UI.CoreFull>Core Full</Forgotty.UI.CoreFull>
+  <Forgotty.UI.BackupInstalled>Backup Installed</Forgotty.UI.BackupInstalled>
+
+  <Forgotty.UI.CoreCharge>{0} cores have been added.</Forgotty.UI.CoreCharge>
+  <Forgotty.UI.BackupInstall>{0} installed backupmemory.</Forgotty.UI.BackupInstall>
+
+  <Forgotty.UI.SelectForgotty>Which type of Forgotty do you get?</Forgotty.UI.SelectForgotty>
+  <Forgotty.UI.Worker>Worker Type</Forgotty.UI.Worker>
+  <Forgotty.UI.Combat>Combat Type</Forgotty.UI.Combat>
+  <Forgotty.UI.Research>Research Type</Forgotty.UI.Research>
+  
+  <Forgotty.UI.Summonlabel>{0} joined the colony</Forgotty.UI.Summonlabel>
+  <Forgotty.UI.Summon>{0} and welcomed them as colonists.</Forgotty.UI.Summon>
+  
+  <Forgotty.UI.ITab>Forgotty</Forgotty.UI.ITab>
+  <Forgotty.UI.Tier>Tier</Forgotty.UI.Tier>
+  <Forgotty.UI.XP>XP</Forgotty.UI.XP>
+  <Forgotty.UI.Core>Core</Forgotty.UI.Core>
+
+</LanguageData>

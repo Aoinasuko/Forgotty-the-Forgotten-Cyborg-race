@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 子供 -->
+
+  <Forgotty_Child_N_A.title>フォアゴッティ</Forgotty_Child_N_A.title>
+  <Forgotty_Child_N_A.titleShort>フォアゴッティ</Forgotty_Child_N_A.titleShort>
+  <Forgotty_Child_N_A.baseDesc>[PAWN_nameDef]は生産されたフォアゴッティです.</Forgotty_Child_N_A.baseDesc>
+
+
+  <!-- 大人 -->
+
+  <Forgotty_Adult_N_A.title>労働型</Forgotty_Adult_N_A.title>
+  <Forgotty_Adult_N_A.titleShort>労働型</Forgotty_Adult_N_A.titleShort>
+  <Forgotty_Adult_N_A.baseDesc>[PAWN_nameDef]は労働型のフォアゴッティです.</Forgotty_Adult_N_A.baseDesc>
+
+  <Forgotty_Adult_N_B.title>戦闘型</Forgotty_Adult_N_B.title>
+  <Forgotty_Adult_N_B.titleShort>戦闘型</Forgotty_Adult_N_B.titleShort>
+  <Forgotty_Adult_N_B.baseDesc>[PAWN_nameDef]は戦闘型のフォアゴッティです.</Forgotty_Adult_N_B.baseDesc>
+
+  <Forgotty_Adult_N_C.title>研究型</Forgotty_Adult_N_C.title>
+  <Forgotty_Adult_N_C.titleShort>研究型</Forgotty_Adult_N_C.titleShort>
+  <Forgotty_Adult_N_C.baseDesc>[PAWN_nameDef]は研究型のフォアゴッティです.</Forgotty_Adult_N_C.baseDesc>
+
+
+</LanguageData>

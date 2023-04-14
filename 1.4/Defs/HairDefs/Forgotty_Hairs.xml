@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	
+	<StyleItemCategoryDef>
+		<defName>Forgotty</defName>
+		<label>Forgotty</label>
+	</StyleItemCategoryDef>
+	
+	<HairDef>
+		<defName>Forgotty_Short</defName>
+		<label>Forgotty Short</label>
+		<styleGender>Any</styleGender>
+		<texPath>Forgotty/Race/Hair/Short/Short</texPath>
+		<category>Forgotty</category>
+		<styleTags>
+			<li>Forgotty</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>Forgotty_Okappa</defName>
+		<label>Forgotty Okappa</label>
+		<styleGender>Any</styleGender>
+		<texPath>Forgotty/Race/Hair/Okappa/Okappa</texPath>
+		<category>Forgotty</category>
+		<styleTags>
+			<li>Forgotty</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>Forgotty_Long</defName>
+		<label>Forgotty Long</label>
+		<styleGender>Any</styleGender>
+		<texPath>Forgotty/Race/Hair/Long/Long</texPath>
+		<category>Forgotty</category>
+		<styleTags>
+			<li>Forgotty</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>Forgotty_Mituami</defName>
+		<label>Forgotty Mituami</label>
+		<styleGender>Any</styleGender>
+		<texPath>Forgotty/Race/Hair/Mituami/Mituami</texPath>
+		<category>Forgotty</category>
+		<styleTags>
+			<li>Forgotty</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>LegacyFairy_Ahoge</defName>
+		<label>Forgotty Ahoge</label>
+		<styleGender>Any</styleGender>
+		<texPath>Forgotty/Race/Hair/Ahoge/Ahoge</texPath>
+		<category>Forgotty</category>
+		<styleTags>
+			<li>Forgotty</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>Forgotty_TwintailLike</defName>
+		<label>Forgotty TwintailLike</label>
+		<styleGender>Any</styleGender>
+		<texPath>Forgotty/Race/Hair/TwintailLike/TwintailLike</texPath>
+		<category>Forgotty</category>
+		<styleTags>
+			<li>Forgotty</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>Forgotty_Mekakure_L</defName>
+		<label>Forgotty Mekakure L</label>
+		<styleGender>Any</styleGender>
+		<texPath>Forgotty/Race/Hair/MekakureL/MekakureL</texPath>
+		<category>Forgotty</category>
+		<styleTags>
+			<li>Forgotty</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>Forgotty_Mekakure_R</defName>
+		<label>Forgotty Mekakure R</label>
+		<styleGender>Any</styleGender>
+		<texPath>Forgotty/Race/Hair/MekakureR/MekakureR</texPath>
+		<category>Forgotty</category>
+		<styleTags>
+			<li>Forgotty</li>
+		</styleTags>
+	</HairDef>
+	
+</Defs>

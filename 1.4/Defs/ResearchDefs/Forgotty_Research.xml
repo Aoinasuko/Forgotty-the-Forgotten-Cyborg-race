@@ -73,20 +73,4 @@
 	    <researchViewY>4</researchViewY>
 	</ResearchProjectDef>
 	
-	<ResearchProjectDef>
-	    <defName>Forgotty_Costumes</defName>
-	    <label>Costumes</label>
-	    <description>It will allow you to create Forgotty outfits.</description>
-	    <baseCost>500</baseCost>
-	    <techLevel>Industrial</techLevel>
-	    <tab>
-	      <li>Forgotty_Research</li>
-	    </tab>
-	    <prerequisites>
-	      <li>Forgotty_Knowledge</li>
-	    </prerequisites>
-	    <researchViewX>1</researchViewX>
-	    <researchViewY>5</researchViewY>
-	</ResearchProjectDef>
-	
 </Defs>

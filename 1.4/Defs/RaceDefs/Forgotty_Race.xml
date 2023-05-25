@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	
-	<AlienRace.ThingDef_AlienRace ParentName="BasePawn">
+	<AlienRace.ThingDef_AlienRace Tag="BEPRace" ParentName="BasePawn">
 		<defName>Forgotty_Pawn</defName>
 		<label>Forgotty</label>
 		<description>Forgotty is a species that was discovered and identified in a laboratory buried in a certain location on the "Forgotten Continent" when research uncovered an individual that had been kept in storage. While its appearance, internal organs, etc., are almost identical to those of baseliners, the only part of it that is the brain is composed of mechanite and machinery. The only part of the brain that functions is a special part composed of mechanite and machinery.\n\nAccording to a few sources, the creators of this race substituted the brain with a mechanite and a machine. The creators of this tribe, according to a few sources, were trying to create a human being who could create his or her preferred personality on demand by replacing the brain with a mechanite and a machine. However, due to the problems caused by replacing the brain with a machine, the project was eventually frozen. The project was eventually frozen.\n\nForgotty gains a certain amount of knowledge from various jobs, which activates the mechanite. Based on the activated mechanite, the parts that hit the brain can be upgraded. However, when upgrading a part, the memory must be formatted. The personality in the formatted parts will disappear without a trace.</description>
@@ -80,7 +80,7 @@
 						<li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
 						<li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
 					</bodyTypes>
-					<headOffset>(-0.1, -0.186)</headOffset>
+					<headOffset>(-0.1, -0.26)</headOffset>
 					<customDrawSize>(1, 1)</customDrawSize>
 					<customHeadDrawSize>(1, 1)</customHeadDrawSize>
 					<customPortraitDrawSize>(1, 1)</customPortraitDrawSize>
@@ -201,21 +201,12 @@
 				</growthAges>
 			</generalSettings>
 			<graphicPaths>
-				<head>
-					<path>Forgotty/Race/Head/Average_Normal</path>
-					<headtypeGraphics>
-						<Male_AverageNormal>Forgotty/Race/Head/Average_Normal</Male_AverageNormal>
-						<Female_AverageNormal>Forgotty/Race/Head/Average_Normal</Female_AverageNormal>
-					</headtypeGraphics>
-				</head>
-				<body>
-					<path>Forgotty/Race/Body/</path>
-				</body>
-				<skeleton>Forgotty/Race/Bone/Bone</skeleton>
-				<skull>Forgotty/Race/HeadBone/HeadBone</skull>
-				<apparel>
-					<!-- Apparel Graphics options go here -->
-				</apparel>
+				<head>BEPRaceCore/Race/Head/Average_Normal</head>
+				<body>BEPRaceCore/Race/Body/Normal/</body>
+				<skeleton>BEPRaceCore/Race/Bone/Bone</skeleton>
+				<skull>BEPRaceCore/Race/HeadBone/HeadBone</skull>
+				<skinShader>Cutout</skinShader>
+				<skinColor>(1,1,1,1)</skinColor>
 			</graphicPaths>
 			<relationSettings>
 				<relationChanceModifierLover>0</relationChanceModifierLover>
@@ -232,17 +223,6 @@
 				<onlyUseRaceRestrictedWeapons>false</onlyUseRaceRestrictedWeapons>
 				<onlyDoRaceRestrictedRecipes>false</onlyDoRaceRestrictedRecipes>
 				<apparelList>
-					<li>Forgotty_SimpleCloth</li>
-					<li>Forgotty_BlindfoldandGag</li>
-					<li>Forgotty_Blindfold</li>
-					<li>Forgotty_SimpleCollor</li>
-					<li>Forgotty_SlaveStrap</li>
-					<li>Forgotty_SimpleArmor</li>
-					<li>Forgotty_MaidBand</li>
-					<li>Forgotty_MaidCloth</li>
-					<li>Forgotty_NobleCloth</li>
-					<li>Forgotty_NobleCape</li>
-					<li>Forgotty_SwimSuit</li>
 				</apparelList>
 				<blackGeneList>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Brow_Heavy</li>
@@ -293,7 +273,7 @@
 					<value>
 						<hasStyle>true</hasStyle>
 						<styleTagsOverride>
-							<li>Forgotty</li>
+							<li>BEPRace</li>
 						</styleTagsOverride>
 					</value>
 				</li>
@@ -476,6 +456,15 @@
 		<inspectorTabs>
 			<li>Forgotty_Race.ITab_Forgotty</li>
 		</inspectorTabs>
+		<modExtensions>
+			<li Class="BEPRace_Core.BEPRace_Setting">
+				<ignoreDead>false</ignoreDead>
+				<fleeMeat>false</fleeMeat>
+				<ignoreAge>false</ignoreAge>
+				<ignoreFlee>true</ignoreFlee>
+				<slaveWorkSpeed>1.0</slaveWorkSpeed>
+			</li>
+		</modExtensions>
 	</AlienRace.ThingDef_AlienRace>
 	
 	<LifeStageDef>

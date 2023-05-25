@@ -19,13 +19,13 @@
 		</backstoryFiltersOverride>
 		<styleItemTags>
 			<li>
-				<tag>Forgotty</tag>
+				<tag>BEPRace</tag>
 				<baseWeight>1</baseWeight>
 				<weightFactor>1</weightFactor>
 			</li>
 		</styleItemTags>
 		<apparelTags>
-			<li>Forgotty_Apparel</li>
+			<li>BEP_Apparel</li>
 		</apparelTags>
 		<apparelMoney>0~1000</apparelMoney>
 		<minGenerationAge>18</minGenerationAge>

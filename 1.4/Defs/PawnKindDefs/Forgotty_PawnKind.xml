@@ -35,6 +35,12 @@
 		<initialWillRange>3~5</initialWillRange>
 		<initialResistanceRange>1~3</initialResistanceRange>
 		<defaultFactionType>Forgotty_ForgottyGroup</defaultFactionType>
+		<xenotypeSet>
+			<xenotypeChances>
+				<Forgotty_Forgotty MayRequire="Ludeon.RimWorld.Biotech">999</Forgotty_Forgotty>
+			</xenotypeChances>
+		</xenotypeSet>
+		<useFactionXenotypes>false</useFactionXenotypes>
 	</PawnKindDef>
 	
 </Defs>

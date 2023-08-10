@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <XenotypeDef>
+    <defName>Forgotty_Forgotty</defName>
+    <label>Forgotty</label>
+    <description>It is a basic Forgotty.</description>
+    <iconPath>BEPRaceCore/UI/Gene/BrilliancePower</iconPath>
+    <factionlessGenerationWeight>0</factionlessGenerationWeight>
+    <inheritable>true</inheritable>
+    <genes>
+      <li>BEP_WishPower</li>
+      <li>BEP_Wish_Spinning</li>
+      <li>Superclotting</li>
+      <li>Aggression_DeadCalm</li>
+      <li>Unstoppable</li>
+      <li>AptitudeTerrible_Animals</li>
+      <li>AptitudeTerrible_Artistic</li>
+    </genes>
+  </XenotypeDef>
+
+</Defs>

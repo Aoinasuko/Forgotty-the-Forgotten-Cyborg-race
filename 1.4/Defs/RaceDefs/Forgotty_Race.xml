@@ -4,7 +4,7 @@
 	<AlienRace.ThingDef_AlienRace Tag="BEPRace" ParentName="BasePawn">
 		<defName>Forgotty_Pawn</defName>
 		<label>Forgotty</label>
-		<description>Forgotty is a species that was discovered and identified in a laboratory buried in a certain location on the "Forgotten Continent" when research uncovered an individual that had been kept in storage. While its appearance, internal organs, etc., are almost identical to those of baseliners, the only part of it that is the brain is composed of mechanite and machinery. The only part of the brain that functions is a special part composed of mechanite and machinery.\n\nAccording to a few sources, the creators of this race substituted the brain with a mechanite and a machine. The creators of this tribe, according to a few sources, were trying to create a human being who could create his or her preferred personality on demand by replacing the brain with a mechanite and a machine. However, due to the problems caused by replacing the brain with a machine, the project was eventually frozen. The project was eventually frozen.\n\nForgotty gains a certain amount of knowledge from various jobs, which activates the mechanite. Based on the activated mechanite, the parts that hit the brain can be upgraded. However, when upgrading a part, the memory must be formatted. The personality in the formatted parts will disappear without a trace.</description>
+		<description>Forgotty is a race that was discovered and identified in a laboratory buried in a certain location on the "Forgotten Continent" when research uncovered an individual that had been kept in storage. While its appearance, internal organs, etc., are almost identical to those of baseliners, the only part of it that is the brain is composed of mechanite and machinery. The only part of the brain that functions is a special part composed of mechanite and machinery.\n\nAccording to a few sources, the creators of this race substituted the brain with a mechanite and a machine. The creators of this tribe, according to a few sources, were trying to create a human being who could create his or her preferred personality on demand by replacing the brain with a mechanite and a machine. However, due to the problems caused by replacing the brain with a machine, the project was eventually frozen. The project was eventually frozen.\n\nForgotty gains a certain amount of knowledge from various jobs, which activates the mechanite. Based on the activated mechanite, the parts that hit the brain can be upgraded. However, when upgrading a part, the memory must be formatted. The personality in the formatted parts will disappear without a trace.</description>
 		<alienRace>
 			<generalSettings>
 				<maleGenderProbability>-1</maleGenderProbability>
@@ -253,6 +253,10 @@
 					<li>Head</li>
 					<li>BodyType</li>
 				</blackEndoCategories>
+				<xenotypeList>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Forgotty_Forgotty</li>
+				</xenotypeList>
+				<onlyUseRaceRestrictedXenotypes>true</onlyUseRaceRestrictedXenotypes>
 			</raceRestriction>
 			<thoughtSettings>
 				<cannotReceiveThoughts>

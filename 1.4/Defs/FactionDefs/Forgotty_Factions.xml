@@ -40,7 +40,7 @@
     <settlementTexturePath>Forgotty/UI/Faction/icon</settlementTexturePath>
     <xenotypeSet>
       <xenotypeChances>
-        <Baseliner MayRequire="Ludeon.RimWorld.Biotech">1.0</Baseliner>
+        <Forgotty_Forgotty MayRequire="Ludeon.RimWorld.Biotech">1.0</Forgotty_Forgotty>
       </xenotypeChances>
     </xenotypeSet>
     <modExtensions>

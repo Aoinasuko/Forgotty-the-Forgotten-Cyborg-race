@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Forgotty_ShortRush.label>Forgotty ショートラッシュ</Forgotty_ShortRush.label>
+  <Forgotty_ShortRush.description>周囲の味方の士気を高める効果を持ったピストルです. 射撃自体は普通のピストルと変わらないものの,射撃の度に周囲の味方に強化効果を与えます.</Forgotty_ShortRush.description>
+
+  <Forgotty_BattleBless.label>Forgotty バトルブレス</Forgotty_BattleBless.label>
+  <Forgotty_BattleBless.description>周囲の味方の士気を高める効果を持ったピストルです. 射撃自体は普通のピストルと変わらないものの,射撃の度に周囲の味方に強化効果を与えます. ショートラッシュよりも効果が強力になっています.</Forgotty_BattleBless.description>
+
+</LanguageData>

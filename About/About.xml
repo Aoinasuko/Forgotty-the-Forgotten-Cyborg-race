@@ -67,7 +67,8 @@ English(Machine translation)
 <color=#77FFFF>-体格がやや小さい</color>
 <color=#77FFFF>-スキルレベルが劣化しない</color>
 <color=#77FFFF>-現在のTierや型式によって能力値が強化される</color>
-<color=#77FFFF>-ideology導入時、奴隷状態の時に脱走しない</color>
+<color=#77FFFF>-Ideology導入時、奴隷状態の時に脱走しない</color>
+<color=#77FFFF>-Biotech導入時、初めからメカニターのようにメカノイドを少しだけ操作できる</color>
 
 <color=#FF7777>-良くも悪くも人間と殆どあらゆる面が同じ</color>
 <color=#FF7777>-EMPに致命的に弱く、被弾すると30秒スタンする</color>
@@ -83,9 +84,8 @@ English(Machine translation)
 フォーマットを行ったフォアゴッティは記憶をすべて失い、しばらく再起動のために麻酔が掛かります。
 
 <color=#77FFFF><size=20>＊その他、このMODで追加されるもの</size></color>
--フォアゴッティの研究が追加されます。
--フォアゴッティの建築物を追加します。
--フォアゴッティの衣装を追加します。
+-フォアゴッティの研究が追加されます
+フォアゴッティを更に強化する方法やフォアゴッティにしか作成できないメカノイドを解放します
 
 ]]></description>
 </ModMetaData>

@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	
 	<PawnKindDef>
 		<defName>Forgotty_Visitor</defName>
 		<label>Forgotty Visitor</label>
@@ -42,5 +41,4 @@
 		</xenotypeSet>
 		<useFactionXenotypes>false</useFactionXenotypes>
 	</PawnKindDef>
-	
 </Defs>

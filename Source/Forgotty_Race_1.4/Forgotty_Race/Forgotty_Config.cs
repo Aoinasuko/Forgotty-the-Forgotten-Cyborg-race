@@ -29,7 +29,7 @@ namespace Forgotty_Race
 	public class Forgotty_Config : ModSettings
 	{
 		// バージョン
-		public static int ver = 210;
+		public static int ver = 220;
 
 		// アップデートバージョン
 		public static int Updatever = 0;

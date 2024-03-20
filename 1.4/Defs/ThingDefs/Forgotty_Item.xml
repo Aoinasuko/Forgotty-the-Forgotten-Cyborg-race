@@ -43,6 +43,7 @@
       </skillRequirements>
       <researchPrerequisite>Forgotty_Knowledge</researchPrerequisite>
       <workSkill>Crafting</workSkill>
+      <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
     </recipeMaker>
     <tradeability>Sellable</tradeability>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
@@ -104,6 +105,7 @@
       </skillRequirements>
       <researchPrerequisite>Forgotty_Knowledge</researchPrerequisite>
       <workSkill>Crafting</workSkill>
+      <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
     </recipeMaker>
     <tradeability>Sellable</tradeability>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
@@ -162,6 +164,7 @@
       </skillRequirements>
       <researchPrerequisite>Forgotty_Knowledge</researchPrerequisite>
       <workSkill>Crafting</workSkill>
+      <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
     </recipeMaker>
     <comps>
       <li Class="CompProperties_Usable">
@@ -220,6 +223,7 @@
       </skillRequirements>
       <researchPrerequisite>Forgotty_BackupMemory</researchPrerequisite>
       <workSkill>Crafting</workSkill>
+      <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
     </recipeMaker>
     <tradeability>Sellable</tradeability>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>

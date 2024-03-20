@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- 基礎研究 -->
+	<ResearchProjectDef>
+	    <defName>Forgotty_TacticalShield</defName>
+	    <label>Tactical Shield</label>
+	    <description>It will be possible to produce MechFea, a small mechanoid that can only be manufactured in Forgotty. This mechanoid is small but very hard-hitting.</description>
+	    <baseCost>500</baseCost>
+	    <techLevel>Industrial</techLevel>
+	    <tab>
+	      <li>Forgotty_Research</li>
+	    </tab>
+	    <prerequisites>
+	      <li>Forgotty_Overhaul</li>
+	      <li>BasicMechtech</li>
+	    </prerequisites>
+	    <researchViewX>3</researchViewX>
+	    <researchViewY>3</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>

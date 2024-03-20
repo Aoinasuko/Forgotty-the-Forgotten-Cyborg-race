@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patch>
+	
+	<!-- レシピ追加 -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="MechGestator"]/recipes</xpath>
+		<value>
+			<li>Forgotty_MechFea</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="ResurrectLightMech"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>Corpse_Forgotty_MechFea</li>
+		</value>
+	</Operation>
+	
+</Patch>

@@ -23,5 +23,10 @@
   <Forgotty_Tier.stages.3.label>Tier 4</Forgotty_Tier.stages.3.label>
   <Forgotty_Tier.stages.4.label>Tier 5</Forgotty_Tier.stages.4.label>
 
+  <Forgotty_ShortRush.label>ショートラッシュ</Forgotty_ShortRush.label>
+  <Forgotty_ShortRush.description>短時間の間,戦闘能力が向上している状態です.</Forgotty_ShortRush.description>
+
+  <Forgotty_BattleBless.label>バトルブレス</Forgotty_BattleBless.label>
+  <Forgotty_BattleBless.description>短時間の間,戦闘能力が向上している状態です.</Forgotty_BattleBless.description>
 
 </LanguageData>

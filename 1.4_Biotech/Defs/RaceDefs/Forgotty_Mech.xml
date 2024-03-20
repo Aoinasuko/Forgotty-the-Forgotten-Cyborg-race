@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    
+    <!-- MechFea -->  
+    <ThingDef ParentName="LightMechanoid">
+      <defName>Forgotty_MechFea</defName>
+      <label>mechfea</label>
+      <description>It is a mechanoid whose manufacturing process was contained in Forgotty's OS. Its use seems to have been to attract the enemy's attention for a long time on the battlefield. Although small in appearance, it is extremely durable compared to other small mechanoids, as all combat-related technologies are dedicated to strength.</description>
+      <statBases>
+        <MoveSpeed>6.0</MoveSpeed>
+        <MeleeDodgeChance>2.0</MeleeDodgeChance>
+        <IncomingDamageFactor>0.75</IncomingDamageFactor>
+      </statBases>
+      <race>
+        <baseHealthScale>1.5</baseHealthScale>
+        <lifeStageAges>
+          <li>
+            <def>MechanoidFullyFormed</def>
+            <minAge>0</minAge>
+            <soundWounded>Pawn_Mech_Lifter_Wounded</soundWounded>
+            <soundDeath>Pawn_Mech_Lifter_Death</soundDeath>
+            <soundCall>Pawn_Mech_Lifter_Call</soundCall>
+          </li>
+          <li>
+            <def>MechanoidFullyFormed</def>
+            <minAge>100</minAge>
+            <soundWounded>Pawn_Mech_Lifter_Wounded</soundWounded>
+            <soundDeath>Pawn_Mech_Lifter_Death</soundDeath>
+            <soundCall>Pawn_Mech_Lifter_Call</soundCall>
+          </li>
+        </lifeStageAges>
+      </race>
+    </ThingDef>
+    
+    <PawnKindDef ParentName="NonCombatLightMechanoidKind">
+      <defName>Forgotty_MechFea</defName>
+      <label>mechfea</label>
+      <race>Forgotty_MechFea</race>
+      <lifeStages>
+        <li>
+          <bodyGraphicData>
+            <texPath>Forgotty/Pawn/MechFea/MechFea</texPath>
+            <shaderType>Cutout</shaderType>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>1</drawSize>
+          </bodyGraphicData>
+        </li>
+        <li>
+          <bodyGraphicData>
+            <texPath>Forgotty/Pawn/MechFea/MechFea</texPath>
+            <shaderType>Cutout</shaderType>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>1</drawSize>
+          </bodyGraphicData>
+        </li>
+      </lifeStages>
+      <abilities>
+        <li>LongjumpMechLauncher</li>
+      </abilities>
+    </PawnKindDef>
+    
+    <RecipeDef ParentName="LightMechanoidRecipe">
+        <defName>Forgotty_MechFea</defName>
+        <label>gestate mechfea</label>
+        <description>Gestate a mechfea mechanoid. Only Forgotty can do this.</description>
+        <researchPrerequisite>Forgotty_TacticalShield</researchPrerequisite>
+        <products>
+          <Forgotty_MechFea>1</Forgotty_MechFea>
+        </products>
+        <descriptionHyperlinks>
+          <ThingDef>Forgotty_MechFea</ThingDef>
+        </descriptionHyperlinks>
+      </RecipeDef>
+</Defs>

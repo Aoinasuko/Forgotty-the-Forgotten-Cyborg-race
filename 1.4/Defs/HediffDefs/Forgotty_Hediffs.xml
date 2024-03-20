@@ -80,6 +80,10 @@
           <WorkSpeedGlobal>0.7</WorkSpeedGlobal>
           <AimingDelayFactor>1.5</AimingDelayFactor>
         </statFactors>
+        <statOffsets>
+          <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">2</MechBandwidth>
+          <MechControlGroups MayRequire="Ludeon.RimWorld.Biotech">1</MechControlGroups>
+        </statOffsets>
       </li>
       <li>
         <label>Tier 2</label>
@@ -89,10 +93,18 @@
           <WorkSpeedGlobal>0.9</WorkSpeedGlobal>
           <AimingDelayFactor>1.25</AimingDelayFactor>
         </statFactors>
+        <statOffsets>
+          <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">2</MechBandwidth>
+          <MechControlGroups MayRequire="Ludeon.RimWorld.Biotech">1</MechControlGroups>
+        </statOffsets>
       </li>
       <li>
         <label>Tier 3</label>
         <minSeverity>3.0</minSeverity>
+        <statOffsets>
+          <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">2</MechBandwidth>
+          <MechControlGroups MayRequire="Ludeon.RimWorld.Biotech">1</MechControlGroups>
+        </statOffsets>
       </li>
       <li>
         <label>Tier 4</label>
@@ -102,6 +114,10 @@
           <WorkSpeedGlobal>1.25</WorkSpeedGlobal>
           <AimingDelayFactor>0.75</AimingDelayFactor>
         </statFactors>
+        <statOffsets>
+          <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">4</MechBandwidth>
+          <MechControlGroups MayRequire="Ludeon.RimWorld.Biotech">2</MechControlGroups>
+        </statOffsets>
       </li>
       <li>
         <label>Tier 5</label>
@@ -111,8 +127,61 @@
           <WorkSpeedGlobal>1.5</WorkSpeedGlobal>
           <AimingDelayFactor>0.5</AimingDelayFactor>
         </statFactors>
+        <statOffsets>
+          <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">6</MechBandwidth>
+          <MechControlGroups MayRequire="Ludeon.RimWorld.Biotech">2</MechControlGroups>
+        </statOffsets>
       </li>
     </stages>
   </HediffDef>
-  
+
+  <HediffDef>
+    <defName>Forgotty_ShortRush</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.4, 0.6, 0.8)</defaultLabelColor>
+    <isBad>false</isBad>
+    <label>ShortRush</label>
+    <description>For a short time, it greatly improves your fighting ability.</description>
+    <stages>
+      <li>
+        <statFactors>
+          <AimingDelayFactor>0.75</AimingDelayFactor>
+          <MeleeDodgeChance>4.0</MeleeDodgeChance>
+          <MeleeHitChance>4.0</MeleeHitChance>
+        </statFactors>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>1200</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>Forgotty_BattleBless</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.4, 0.6, 0.8)</defaultLabelColor>
+    <isBad>false</isBad>
+    <label>BattleBless</label>
+    <description>For a short time, it greatly improves your fighting ability.</description>
+    <stages>
+      <li>
+        <statFactors>
+          <MoveSpeed>1.5</MoveSpeed>
+          <AimingDelayFactor>0.5</AimingDelayFactor>
+          <MeleeDodgeChance>5.0</MeleeDodgeChance>
+          <MeleeHitChance>5.0</MeleeHitChance>
+        </statFactors>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>1200</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+    </comps>
+  </HediffDef>
+
 </Defs>

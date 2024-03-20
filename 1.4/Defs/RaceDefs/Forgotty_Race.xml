@@ -205,6 +205,7 @@
 				<body>BEPRaceCore/Race/Body/Normal/</body>
 				<skeleton>BEPRaceCore/Race/Bone/Bone</skeleton>
 				<skull>BEPRaceCore/Race/HeadBone/HeadBone</skull>
+				<swaddle>BEPRaceCore/Race/Dummy/Dummy</swaddle>
 				<skinShader>Cutout</skinShader>
 				<skinColor>(1,1,1,1)</skinColor>
 			</graphicPaths>
@@ -224,6 +225,13 @@
 				<onlyDoRaceRestrictedRecipes>false</onlyDoRaceRestrictedRecipes>
 				<apparelList>
 				</apparelList>
+				<weaponList>
+					<li>Forgotty_ShortRush</li>
+					<li>Forgotty_BattleBless</li>
+				</weaponList>
+				<recipeList>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Forgotty_MechFea</li>
+				</recipeList>
 				<blackGeneList>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Brow_Heavy</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">FacialRidges</li>
@@ -488,6 +496,7 @@
 		<defName>Forgotty_Child</defName>
 		<label>Forgotty Child</label>
 		<reproductive>false</reproductive>
+		<workerClass MayRequire="Ludeon.RimWorld.Biotech">LifeStageWorker_HumanlikeChild</workerClass>
 		<visible>false</visible>
 		<developmentalStage>Child</developmentalStage>
 		<statFactors>
@@ -501,7 +510,7 @@
 		<defName>Forgotty_Adult</defName>
 		<label>Forgotty Adult</label>
 		<reproductive>true</reproductive>
-		<milkable>true</milkable>
+		<workerClass MayRequire="Ludeon.RimWorld.Biotech">LifeStageWorker_HumanlikeAdult</workerClass>
 		<visible>false</visible>
 		<developmentalStage>Adult</developmentalStage>
 	</LifeStageDef>

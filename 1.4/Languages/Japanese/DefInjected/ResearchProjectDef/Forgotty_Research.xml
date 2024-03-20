@@ -13,4 +13,10 @@
   <Forgotty_FinalOverhaul.label>最終改修計画</Forgotty_FinalOverhaul.label>
   <Forgotty_FinalOverhaul.description>フォアゴッティのTier5への強化を行えるようになります.</Forgotty_FinalOverhaul.description>
 
+  <Forgotty_SergeantWeapon.label>軍曹の武器</Forgotty_SergeantWeapon.label>
+  <Forgotty_SergeantWeapon.description>フォアゴッティのみが使える,周囲の味方の士気を高めるピストルを作成できるようになります.</Forgotty_SergeantWeapon.description>
+
+  <Forgotty_MarshalWeapon.label>元帥の武器</Forgotty_MarshalWeapon.label>
+  <Forgotty_MarshalWeapon.description>フォアゴッティのみが使える,周囲の味方の士気を更に高めるピストルを作成できるようになります.</Forgotty_MarshalWeapon.description>
+
 </LanguageData>

@@ -63,4 +63,32 @@ namespace Forgotty_Race
         }
     }
 
+	/// <summary>
+    /// メカニター扱いにする
+    /// <summary>
+    [HarmonyPatch(typeof(MechanitorUtility), "IsMechanitor")]
+    [HarmonyPatch(new Type[]
+    {
+        typeof(Pawn),
+    })]
+    internal static class IsMechanitor_Patch
+    {
+        [HarmonyPostfix]
+        static void Postfix(ref bool __result, Pawn pawn)
+        {
+            if (pawn.def.defName == "Forgotty_Pawn")
+            {
+                if (!ModsConfig.BiotechActive)
+				{
+					return;
+				}
+				if (pawn.Faction.IsPlayerSafe())
+				{
+					__result = true;
+					return;
+				}
+            }
+            return;
+        }
+    }
 }
